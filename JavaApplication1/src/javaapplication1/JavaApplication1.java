@@ -1,21 +1,57 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication1;
 
-/**
- *
- * @author Laboratorio-Info
- */
+package javaapplication1;
+import java.util.Scanner;
+//CONDICIONAIS DE COMPARAÇÃO.
 public class JavaApplication1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        Scanner read = new Scanner(System.in);
+            Ex1IfElse.exercicio1(args);
+        
+            /*
+            == IGUAL
+            != DIFERENTE
+            > MAIOR Q
+            < MENOR Q
+            >= MAIOR IGUAL
+            <= MENOR IGUAL
+            % MODULO
+            && E
+            || OU
+        
+          int x = 3;
+            if(x == 1){
+                (valor igual a 1);
+            }else if(x == 2){
+          (valor igual a 2);
+    }else if(x == 3){
+    (valor igual a 3);
+}else{
+        (nenhum dos valores é igual a x)
+    }*/
+            int idade;
+            System.out.println("informe a idade do usuario: ");
+            idade = read.nextInt();
+            if(idade <= 0){
+                System.out.println("idade invalida.");
+            }else if(idade >= 1 && idade <= 10){
+                
+            System.out.println("INFATIL - manhã.");
+            
+            
+            }else if(idade <= 13){
+                
+            System.out.println("INFANTO-JUVENIL - tarde.");
+            
+            
+            }else if(idade <= 17){
+                
+            System.out.println("PRÉ ADOLESCENTE - tarde.");
+            
+            
+            }else if(idade >= 18){
+                
+            System.out.println(" ADULTO - noite.");
+            }
+}
 }
