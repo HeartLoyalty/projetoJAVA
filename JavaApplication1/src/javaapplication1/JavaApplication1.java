@@ -6,7 +6,11 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-            Ex1IfElse.exercicio1(args);
+        Exercicio4.exercicio4();
+        Exercicio3.exercicio3();
+        Exercicio2.exercicio2();
+        Exercicio1.exercicio1(args);
+            
         
             /*
             == IGUAL

@@ -1,7 +1,7 @@
 
 package javaapplication1;
 import java.util.Scanner;
-public class Ex1IfElse {
+public class Exercicio1 {
     public static void exercicio1(String[] args){
         Scanner read = new Scanner(System.in);
         
