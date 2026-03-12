@@ -6,6 +6,11 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
+        
+        ActivitSwitch4.Activit4(args);
+        ActivitSwitch3.Activit3();
+        ActivitSwitch2.activit2(args);
+        ActivitSwitch.activit1();
         Exercicio4.exercicio4();
         Exercicio3.exercicio3();
         Exercicio2.exercicio2();
