@@ -6,7 +6,9 @@ public class JavaApplication1 {
 
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        
+        exercicio9.exercicio9(args);
+        exercicio8.exercicio8(args);
+        exercicio7.exercicio7(args);
         ActivitSwitch4.Activit4(args);
         ActivitSwitch3.Activit3();
         ActivitSwitch2.activit2(args);
